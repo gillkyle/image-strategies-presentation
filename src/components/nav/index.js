@@ -8,13 +8,13 @@ const Menu = props => (
     <div className="container">
       <div className="row nav-items">
         <div>
-          <Link to="/history#nav" className="link">
-            HISTORY
+          <Link to="/filetypes#nav" className="link">
+            FILE TYPES
           </Link>
         </div>
         <div>
-          <Link to="/overview#nav" className="link">
-            OVERVIEW
+          <Link to="/icon#nav" className="link">
+            ICONS
           </Link>
         </div>
         <div>

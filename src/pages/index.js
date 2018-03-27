@@ -7,7 +7,14 @@ import Home from '../components/page-blocks/home';
 const IndexPage = props => (
   <main>
     <Nav />
-    <Home images={props.data.imageSharp} />
+    <div className="container">
+      <div className="row" style={{ padding: '60px 0px' }}>
+        <h2>
+          "…optimizing images can often yield some of the largest byte savings
+          and performance improvements" -Google PageSpeed Docs
+        </h2>
+      </div>
+    </div>
   </main>
 );
 

@@ -45,6 +45,23 @@ const AboutPage = props => (
           </a>) on <a href="https://codepen.io">CodePen</a>.
         </iframe>
         <iframe
+          height="511"
+          scrolling="no"
+          title="Neural Network visualization"
+          src="//codepen.io/towc/embed/wGjXGY/?height=511&theme-id=light&default-tab=result&embed-version=2"
+          frameborder="no"
+          allowtransparency="true"
+          allowfullscreen="true"
+          style={{ width: '100%' }}
+        >
+          See the Pen{' '}
+          <a href="https://codepen.io/towc/pen/wGjXGY/">
+            Neural Network visualization
+          </a>{' '}
+          by Matei Copot (<a href="https://codepen.io/towc">@towc</a>) on{' '}
+          <a href="https://codepen.io">CodePen</a>.
+        </iframe>
+        <iframe
           height="547"
           scrolling="no"
           title="Fizzy Sparks"

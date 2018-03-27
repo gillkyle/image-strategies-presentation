@@ -19,7 +19,7 @@ const Header = props => (
         display: 'flex',
         justifyContent: 'space-around',
         background: `linear-gradient(to top, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-									linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(17, 33, 6, 0.5))`,
+									linear-gradient(to bottom, rgba(75, 25, 0, 0.25), rgba(17, 33, 6, 0.5))`,
         backgroundSize: 'cover',
         fontFamily: 'Montserrat',
         fontSize: 96,

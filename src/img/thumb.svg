@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="250px" height="250px" viewBox="0 0 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>thumb</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="101" cy="101" r="101"></circle>
+        <filter x="-19.1%" y="-16.6%" width="138.1%" height="138.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.807849702   0 0 0 0 0.807849702   0 0 0 0 0.807849702  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M42,87 L64,87 L64,146 C64,147.656854 62.6568542,149 61,149 L51.5,149 C44.5964406,149 39,143.403559 39,136.5 L39,90 C39,88.3431458 40.3431458,87 42,87 Z" id="path-3"></path>
+    </defs>
+    <g id="ToDoButton" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-535.000000, -58.000000)">
+            <g id="thumb" transform="translate(559.000000, 77.000000)">
+                <g id="ButtonOutline">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <circle stroke="#3AC5FF" stroke-width="7" cx="101" cy="101" r="97.5"></circle>
+                </g>
+                <g id="Outlines" transform="translate(39.000000, 30.000000)"></g>
+                <path d="M123.450269,150.192588 C150.55552,147.589961 150.55552,136.291323 150.55552,136.291323 L151.870402,145.189959 C151.724304,151.274101 141.643187,154.316171 121.627051,154.316171 C91.6028457,154.316171 88.8213634,149.624527 80.0354616,144.09001 C74.9276487,144.09001 96.345018,152.795214 123.450269,150.192588 Z" id="Path-2" fill="#C1EAFB"></path>
+                <path d="M70,88.4121815 C101.518198,74.3899286 100.280228,31.8817149 108.175844,30 C125.185732,32.2483648 128.17407,47.8102665 117.140857,76.6857051 C136.1617,74.8475386 148.039191,76.0503892 152.773331,80.2942569 C157.50747,84.5381246 158.145244,91.297267 154.686653,100.571684 C158.145244,103.221819 159.874539,106.844067 159.874539,111.43843 C159.874539,114.728446 157.752956,117.895191 153.509791,120.938667 C156.575041,123.817079 157.73926,127.171013 157.002448,131.000468 C157.002448,136.331643 150.55552,138.291323 150.55552,138.291323 L151.870402,147.189959 C151.724304,153.274101 141.643187,156.316171 121.627051,156.316171 C91.6028457,156.316171 88.8213634,151.624527 80.0354616,146.09001 C76.630253,146.09001 73.2850992,146.09001 70,146.09001 C70,124.046763 70,104.82082 70,88.4121815 Z" id="Path-2" stroke="#3AC5FF" stroke-width="5"></path>
+                <g id="Rectangle">
+                    <use fill="#DDF5FF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <path stroke="#3AC5FF" stroke-width="5" d="M61.5,89.5 L42,89.5 C41.7238576,89.5 41.5,89.7238576 41.5,90 L41.5,136.5 C41.5,142.022847 45.9771525,146.5 51.5,146.5 L61,146.5 C61.2761424,146.5 61.5,146.276142 61.5,146 L61.5,89.5 Z"></path>
+                </g>
+                <g id="Thumb-Confetti" transform="translate(77.203750, 57.975174) rotate(-15.000000) translate(-77.203750, -57.975174) translate(66.203750, 46.975174)"></g>
+                <polygon id="Path-3" fill="#3AC5FF" points="68.8210117 51.9110185 75.7022273 49.5699584 75.7022273 63.8342393"></polygon>
+                <polygon id="Path-3" fill="#3AC5FF" transform="translate(71.839161, 65.121387) rotate(-36.000000) translate(-71.839161, -65.121387) " points="68.9435147 61.2215409 74.7348072 59.8786934 73.9552652 70.36408"></polygon>
+                <polygon id="Path-3" fill="#3AC5FF" transform="translate(79.717175, 56.242700) rotate(36.000000) translate(-79.717175, -56.242700) " points="76.2765671 50.2810896 82.9786558 50.2856832 83.1577827 62.2043103"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

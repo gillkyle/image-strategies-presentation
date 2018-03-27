@@ -21,6 +21,28 @@ const ContactPage = props => (
               style={{ maxWidth: 1280, width: '100%' }}
             />
           </div>
+          <div className="col-md-12">
+            <iframe
+              height="567"
+              scrolling="no"
+              title="Image loading with Delaunay triangulation based placeholder"
+              src="//codepen.io/jmperez/embed/BmaWmQ/?height=567&theme-id=light&default-tab=result&embed-version=2"
+              frameborder="no"
+              allowtransparency="true"
+              allowfullscreen="true"
+              style={{ width: '100%' }}
+            />
+            <iframe
+              height="641"
+              scrolling="no"
+              title="Contour"
+              src="//codepen.io/jmperez/embed/oogqdp/?height=641&theme-id=light&default-tab=result&embed-version=2"
+              frameborder="no"
+              allowtransparency="true"
+              allowfullscreen="true"
+              style={{ width: '100%' }}
+            />
+          </div>
         </div>
       </div>
     </section>
