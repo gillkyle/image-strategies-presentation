@@ -56,9 +56,7 @@ class MenuPage extends React.Component {
           <div className="row">
             <div className="col-md-12 col-sm-12">
               <h4 className="title">Expert chefs for stunning dishes</h4>
-              <div className="home-info">
-                Contemporarium is a locally owned, locally sourced restaurant.
-              </div>
+              <div className="home-info">JPG</div>
               <div className="home-info">
                 Our chefs are specially trained and specialize in meals that are
                 suitable for all diets and health-minded individuals.

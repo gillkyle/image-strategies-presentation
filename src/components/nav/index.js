@@ -1,7 +1,7 @@
-import React from "react";
-import Link from "gatsby-link";
+import React from 'react';
+import Link from 'gatsby-link';
 
-import "./_nav.scss";
+import './_nav.scss';
 
 const Menu = props => (
   <section className="nav" id="nav">
@@ -23,13 +23,13 @@ const Menu = props => (
           </Link>
         </div>
         <div>
-          <Link to="/demo#nav" className="link">
-            DEMO
+          <Link to="/canvas#nav" className="link">
+            CANVAS
           </Link>
         </div>
         <div>
-          <Link to="/future#nav" className="link">
-            FUTURE
+          <Link to="/optimization#nav" className="link">
+            OPTIMIZATION
           </Link>
         </div>
       </div>

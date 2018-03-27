@@ -12,7 +12,7 @@ class TemplateWrapper extends React.Component {
       <div>
         <Helmet title="Image Strategies">
           <link
-            href="https://fonts.googleapis.com/css?family=Caesar+Dressing"
+            href="https://fonts.googleapis.com/css?family=Montserrat"
             rel="stylesheet"
           />
         </Helmet>
